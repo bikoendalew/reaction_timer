@@ -22,7 +22,6 @@ export default {
     start(){
       this.isPlaying = true,
       this.delay=2000+Math.random() * 5000
-      console.log(this.delay)
     }
   }
 }
